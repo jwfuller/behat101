@@ -42,7 +42,89 @@
           <p><small>Follow along at: <strong><a href="http://rawgit.com/jwfuller/behat101/master/index.html#/">http://rawgit.com/jwfuller/behat101/master/index.html#/</a></strong></small></p>
 				</section>
 
+				<section>
+					<h2>What we will cover</h2>
+          <ul>
+						<li>What is Behat?</li>
+						<li>Why are we using it?</li>
+						<li>What are we going to test with Behat?</li>
+						<li>Running tests</li>
+						<li>Writing tests</li>
+						<li>Helpful commands</li>
+					</ul>
+				</section>
 
+				<section>
+					<h2>What is Behat?</h2>
+					<p>
+						An opensource automated testing system, written in PHP. It is used to do Behavioral/Acceptance/Customer testing.
+					</p>
+				</section>
+
+				<section>
+					<h2>Why are we using it?</h2>
+					<ul>
+						<li>
+							It has a lot of traction in the Drupal community.
+						</li>
+						<li>
+							Plain English syntax, means that anyone can write tests.
+						</li>
+						<li>
+							Can connect to browser emulators that support JavaScript.
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Example of a test</h2>
+					<p>As much as we can</p>
+				</section>
+
+				<section>
+					<h2>What are we going to test with Behat?</h2>
+					<p>As much as we can</p>
+				</section>
+				<section>
+					<h2>Setting up and running tests on NGLocal</h2>
+					<ol>
+						<li>Checkout nglocal/feature/testing and cu_fit/testing
+<pre><code data-trim>
+cd [directory/for/nglocal]
+git pull
+git checkout feature/testing
+
+cd ~/data/code/dslm_base/profiles/cu_fit-current
+git pull
+git checkout testing
+</code></pre>
+							</li>
+						<li>
+							Go to your nglocal directory and run
+							<pre>
+								<code>./start.sh</code>
+							</pre>
+						</li>
+					</ol>
+				</section>
+				<section>
+					<h2>Setting up and running tests on NGLocal (cont.)</h2>
+					<ol>
+
+						<li>
+							In your nglocal directory run
+							<pre>
+								<code>./test.sh</code>
+							</pre>
+						</li>
+					</ol>
+					<p>
+						This will do a clean install of cu_fit and run the test suite.
+					</p>
+					<p>
+						Currently it takes ~21 minutes
+					</p>
+				</section>
 
 			</div>
 
